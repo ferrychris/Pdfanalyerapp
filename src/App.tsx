@@ -575,7 +575,7 @@ function App() {
           </div>
         )}
 
-        <div className="bg-white rounded-lg shadow-md p-6">
+        {/* <div className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-xl font-semibold mb-4">Your Files</h2>
           <div className="grid grid-cols-1 gap-4">
             {files.map((file) => (
@@ -607,8 +607,8 @@ function App() {
               </p>
             )}
           </div>
-        </div>
-      </div>
+        </div>*/}
+      </div> 
       <style>{`
         .text-highlight {
           background-color: rgba(255, 255, 0, 0.4) !important;
